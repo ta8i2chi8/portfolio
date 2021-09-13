@@ -1,0 +1,86 @@
+<template>
+  <div class="works">
+    <div class="works-wrapper">
+      <h1>Works</h1>
+      <ul class="cards">
+        <li class="card" v-for="card in cards" :key="card.id">
+          <WorkCard 
+            :imgPath="card.imgPath"
+            :title="card.title"
+            :githubUrl="card.githubUrl"
+            :detail="card.detail"
+            :langPaths="card.langPaths" 
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+import WorkCard from '@/components/WorkCard.vue'
+
+type CardType = {
+  id: number
+  title: string;
+  imgPath: string;
+  githubUrl: string;
+  detail: string;
+  langPaths: string[];
+}
+
+type DataType = {
+  cards: CardType[];
+};
+
+export default defineComponent({
+  components: {
+    WorkCard,
+  },
+  data(): DataType {
+    return {
+      cards: [
+        {
+          id: 1,
+          title: 'Portfolio',
+          imgPath: '/img/work/portfolio.png',
+          githubUrl: 'https://github.com/ta8i2chi8/portfolio1',
+          detail: '自己紹介サイトがほしくて作りました。',
+          langPaths: ['/img/skill/vue.svg', '/img/skill/typescript.svg'],
+        },
+        {
+          id: 2,
+          title: 'ネイティブアプリ',
+          imgPath: '/img/work/portfolio.png',
+          githubUrl: 'https://github.com/ta8i2chi8/portfolio1',
+          detail: 'アプリを開発予定',
+          langPaths: ['/img/skill/vue.svg', '/img/skill/typescript.svg'],
+        },
+      ]
+    };
+  }
+})
+</script>
+
+
+<style lang="sass" scoped>
+.works
+  position: relative
+  height: 100vh
+  background-color: #222
+  color: #ddd
+  overflow: hidden
+
+  .works-wrapper
+    margin-top: 120px
+
+    .cards
+      display: flex
+      flex-wrap: wrap
+      justify-content: center
+      padding: 0px
+
+      .card
+        width: 25%
+</style>

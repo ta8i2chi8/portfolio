@@ -5,7 +5,6 @@
     <router-link to="/research" class="menu-btn">Reseach</router-link>
     <router-link to="/skill" class="menu-btn">Skill</router-link>
     <router-link to="/work" class="menu-btn">Works</router-link>
-    <router-link to="/contact" class="menu-btn">Contact</router-link>
   </div>
 </template>
 

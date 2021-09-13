@@ -32,11 +32,6 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Works',
     component: Works
   },
-  {
-    path: '/contact',
-    name: 'Contact',
-    component: Contact
-  },
 ]
 
 const router = createRouter({

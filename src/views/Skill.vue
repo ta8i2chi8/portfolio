@@ -1,7 +1,7 @@
 <template>
   <div class="skill">
     <div class="skill-wrapper">
-      <h2>Languages</h2>
+      <h1>Languages</h1>
       <ul class="langs">
         <li class="card" v-for="lang in skills.langs" :key="lang.id">
           <img :src="lang.imgPath" alt="">
@@ -9,7 +9,7 @@
         </li>
       </ul>
 
-      <h2>Frameworks</h2>
+      <h1>Frameworks and others</h1>
       <ul class="frameworks">
         <li class="card" v-for="framework in skills.frameworks" :key="framework.id">
           <img :src="framework.imgPath" alt="">
@@ -17,13 +17,13 @@
         </li>
       </ul>
 
-      <h2>Others</h2>
+      <!-- <h2>Others</h2>
       <ul class="others">
         <li class="card" v-for="other in skills.others" :key="other.id">
           <img :src="other.imgPath" alt="">
           <p>{{ other.name }}</p>
         </li>
-      </ul>
+      </ul> -->
     </div>
   </div>
 </template>
@@ -41,7 +41,7 @@ type DataType = {
   skills: {
     langs: SkillContent[];
     frameworks: SkillContent[];
-    others: SkillContent[];
+    // others: SkillContent[];
   };
 };
 
@@ -87,6 +87,11 @@ export default defineComponent({
           },
           {
             id: 8,
+            imgPath: '/img/skill/dart.svg',
+            name: 'Dart',
+          },
+          {
+            id: 9,
             imgPath: '/img/skill/mysql.svg',
             name: 'MySQL',
           },
@@ -102,19 +107,22 @@ export default defineComponent({
             imgPath: '/img/skill/pytorch.svg',
             name: 'Pytorch',
           },
-        ],
-        others: [
           {
-            id: 1,
+            id: 3,
+            imgPath: '/img/skill/flutter.svg',
+            name: 'Flutter',
+          },
+          {
+            id: 4,
             imgPath: '/img/skill/git.svg',
             name: 'Git',
           },
           {
-            id: 2,
+            id: 5,
             imgPath: '/img/skill/docker.svg',
             name: 'Docker',
           },
-        ]
+        ],
       }
     }
   }

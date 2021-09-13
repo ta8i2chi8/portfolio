@@ -2,6 +2,7 @@
   <div class="research">
     <h1>Research</h1>
     <p>coming soon...</p>
+    <p>パワポスライドを貼り付けかなあと考え中...</p>
   </div>
 </template>
 

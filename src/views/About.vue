@@ -37,17 +37,22 @@ export default defineComponent({
         {
           id: 1,
           title: '名前',
-          context: '森本 汰一'
+          context: '　森本 汰一'
         },
         {
           id: 2,
           title: '所属',
-          context: '千葉大学大学院 電気電子工学コース 修士1年'
+          context: '　千葉大学大学院 電気電子工学コース 修士1年'
         },
         {
           id: 3,
           title: '趣味',
-          context: '旅行，スノボ　（最近行けてないです、、）',         
+          context: '　旅行，スノボ　（最近行けてないです、、）',         
+        },
+        {
+          id: 4,
+          title: 'メール',
+          context: 'taichi0828*chiba-u.jp (*を@に変えてください)',    
         },
       ],
       detail: `千葉県出身の大学院生。千葉大学の電気電子工学コースを卒業し，現在同大学院に在籍中。</br>
@@ -80,7 +85,7 @@ export default defineComponent({
         border-radius: 50%
 
     ul 
-      margin-top: 25px
+      margin-top: 0px
 
       li
         position: relative

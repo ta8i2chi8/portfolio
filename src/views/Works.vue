@@ -44,18 +44,18 @@ export default defineComponent({
         {
           id: 1,
           title: 'Portfolio',
-          imgPath: '/img/work/portfolio.png',
+          imgPath: require('../assets/img/work/portfolio.png'),
           githubUrl: 'https://github.com/ta8i2chi8/portfolio',
           detail: '自己紹介サイトがほしくて作りました。',
-          langPaths: ['/img/skill/vue.svg', '/img/skill/typescript.svg'],
+          langPaths: [require('../assets/img/skill/vue.svg'), require('../assets/img/skill/typescript.svg')],
         },
         {
           id: 2,
           title: 'らくらく勤怠アプリ',
-          imgPath: '/img/work/kintai.png',
+          imgPath: require('../assets/img/work/kintai.png'),
           githubUrl: 'https://github.com/ta8i2chi8/attendance_management',
           detail: 'お世話になっているITベンチャーでの勤怠管理を改良できそうと思い，現在開発中',
-          langPaths: ['/img/skill/flutter.svg', '/img/skill/dart.svg'],
+          langPaths: [require('../assets/img/skill/flutter.svg'), require('../assets/img/skill/dart.svg')],
         },
       ]
     };

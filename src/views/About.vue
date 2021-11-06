@@ -3,7 +3,7 @@
     <div class="aboutme">
       <div class="aboutme-left">
         <h1>About me</h1>
-        <img src="/img/about/aboutMe.JPG" alt="">
+        <img src="../assets/img/about/aboutMe.png" alt="">
       </div>
       <ul>
         <li v-for="aboutMeContent in aboutMe" :key="aboutMeContent.id">

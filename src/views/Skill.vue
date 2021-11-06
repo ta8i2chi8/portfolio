@@ -52,74 +52,74 @@ export default defineComponent({
         langs: [
           {
             id: 1,
-            imgPath: '/img/skill/html-5.svg',
+            imgPath: require('../assets/img/skill/html-5.svg'),
             name: 'HTML',
           },
           {
             id: 2,
-            imgPath: '/img/skill/css-3.svg',
+            imgPath: require('../assets/img/skill/css-3.svg'),
             name: 'CSS',
           },
           {
             id: 3,
-            imgPath: '/img/skill/javascript.svg',
+            imgPath: require('../assets//img/skill/javascript.svg'),
             name: 'JavaScript',
           },
           {
             id: 4,
-            imgPath: '/img/skill/typescript.svg',
+            imgPath: require('../assets//img/skill/typescript.svg'),
             name: 'TypeScript',
           },
           {
             id: 5,
-            imgPath: '/img/skill/python.svg',
+            imgPath: require('../assets//img/skill/python.svg'),
             name: 'Python',
           },
           {
             id: 6,
-            imgPath: '/img/skill/C++.svg',
+            imgPath: require('../assets//img/skill/C++.svg'),
             name: 'C++',
           },
           {
             id: 7,
-            imgPath: '/img/skill/golang.svg',
+            imgPath: require('../assets//img/skill/golang.svg'),
             name: 'Golang',
           },
           {
             id: 8,
-            imgPath: '/img/skill/dart.svg',
+            imgPath: require('../assets//img/skill/dart.svg'),
             name: 'Dart',
           },
           {
             id: 9,
-            imgPath: '/img/skill/mysql.svg',
+            imgPath: require('../assets//img/skill/mysql.svg'),
             name: 'MySQL',
           },
         ],
         frameworks: [
           {
             id: 1,
-            imgPath: '/img/skill/vue.svg',
+            imgPath: require('../assets//img/skill/vue.svg'),
             name: 'Vue.js',
           },
           {
             id: 2,
-            imgPath: '/img/skill/pytorch.svg',
+            imgPath: require('../assets//img/skill/pytorch.svg'),
             name: 'Pytorch',
           },
           {
             id: 3,
-            imgPath: '/img/skill/flutter.svg',
+            imgPath: require('../assets//img/skill/flutter.svg'),
             name: 'Flutter',
           },
           {
             id: 4,
-            imgPath: '/img/skill/git.svg',
+            imgPath: require('../assets//img/skill/git.svg'),
             name: 'Git',
           },
           {
             id: 5,
-            imgPath: '/img/skill/docker.svg',
+            imgPath: require('../assets//img/skill/docker.svg'),
             name: 'Docker',
           },
         ],

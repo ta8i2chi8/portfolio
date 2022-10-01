@@ -49,14 +49,14 @@ export default defineComponent({
           detail: '自己紹介サイトがほしくて作りました。',
           langPaths: [require('../assets/img/skill/vue.svg'), require('../assets/img/skill/typescript.svg')],
         },
-        {
-          id: 2,
-          title: 'らくらく勤怠アプリ',
-          imgPath: require('../assets/img/work/kintai.png'),
-          githubUrl: 'https://github.com/ta8i2chi8/attendance_management',
-          detail: 'お世話になっているITベンチャーでの勤怠管理を改良できそうと思い，現在開発中',
-          langPaths: [require('../assets/img/skill/flutter.svg'), require('../assets/img/skill/dart.svg')],
-        },
+        // {
+        //   id: 2,
+        //   title: 'らくらく勤怠アプリ',
+        //   imgPath: require('../assets/img/work/kintai.png'),
+        //   githubUrl: 'https://github.com/ta8i2chi8/attendance_management',
+        //   detail: 'お世話になっているITベンチャーでの勤怠管理を改良できそうと思い，現在開発中',
+        //   langPaths: [require('../assets/img/skill/flutter.svg'), require('../assets/img/skill/dart.svg')],
+        // },
       ]
     };
   }
